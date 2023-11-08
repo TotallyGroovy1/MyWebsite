@@ -80,6 +80,25 @@ p {
     text-align: center;
 }
 
+.projects {
+    display: flex;
+    justify-content: space-around;
+    /*align-items: center;*/
+    /*padding: 30px 10%;*/
+}
+
+#im {
+    width: 15vh;
+    height: 15vh;
+    display: block;
+    margin: 0 auto;
+}
+
+.imagemover {
+    text-align: justify;
+    width: 15vh;
+}
+
 label, input {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -125,4 +144,9 @@ input[type=text] {
 
 span {
     color: #34d4fc;
+}
+
+.footer {
+    padding: 1rem;
+    background-color: #24252a;
 }
